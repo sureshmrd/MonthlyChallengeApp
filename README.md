@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Monthly Challenges List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
+The **Monthly Challenges List** is a web application designed to help users keep track of and manage their monthly challenges. Users can create, update, and view a list of challenges they want to accomplish each month.
+This is just a basic application of using java spring and react , performing mainly **CRUD** operations.
 
-## Available Scripts
+## Features
+- **Challenge Management**: Add, update, delete, and view monthly challenges.
+- **Responsive Design**: User-friendly interface 
 
-In the project directory, you can run:
 
-### `npm start`
+## Technologies Used
+- **Backend**: Java, Spring Framework (Spring Boot, Spring jpa)
+- **Frontend**: HTML, Bootstrap, JavaScript , React.js
+- **Database**: h2 Database
+- **Build Tool**: Maven
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Code Editor/IDE USed
+> Intellij IDEA Community Edition
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Other Tools
+- **Postman** - Creating and Sending Requests: Postman allows you to create HTTP requests with various methods (GET, POST, PUT, DELETE, etc.) and send them to your API endpoints.
 
-### `npm test`
+## About h2 Database 
+- H2 is a Java SQL database.
+- Very fast, open source.
+- Browser based Console application.
+- <img width="533" alt="Screenshot_20240531_154010" src="https://github.com/sureshmrd/MonthlyChallengeApp/assets/123853377/0ab03cfb-b3fb-49b6-bd64-c1f5c2de44f8">
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Frontend sample 
+- Created using basic React.js , implemented adding and viewing the challenges.
+- The Application is End to End , the new challenges are added to the h2 database and retrived from the same.
+- <img width="532" alt="image" src="https://github.com/sureshmrd/MonthlyChallengeApp/assets/123853377/b188a732-c562-44f9-8c11-816c2d7e42b0">
 
-### `npm run build`
+## Backend Details
+- The whole Backend is done using java spring boot.
+- The project structure is as follows:
+- ![image](https://github.com/sureshmrd/MonthlyChallengeApp/assets/123853377/cdbbad6c-2c3e-4938-811f-b80a95a7fdc3)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Backend server is running at port 8080 and react is running at port 3000 , the communication is done using CORS(cross origin resource sharing ) annotation by spring @CrossOrigin(origins="http://localhost:3000").
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
