@@ -9,9 +9,24 @@ The **Monthly Challenges List** is a web application designed to help users keep
 
 
 ## Technologies Used
-- **Backend**: Java, Spring Framework (Spring Boot)
+- **Backend**: Java, Spring Framework (Spring Boot,spring jpa)
 - **Frontend**: HTML, Bootstrap, JavaScript, React.js
 - **Database**: h2 database
-- **Build Tool**: Maven 
+- **Build Tool**: Maven
+
+## Code Editor/IDE Used
+> Intellij IDEA Community Edition.
+
+## Other Tools Used 
+- **Postman**:To Operate web requests like Post,Get,Put,Delete.
+
+## About h2 database
+- It is a Java SQL database.
+- Very fast, open source.
+- Browser based Console application.
+  <img width="533" alt="image" src="https://github.com/sureshmrd/MonthlyChallengeApp/assets/123853377/49918f8f-1f42-4465-b86d-e3b1140c19e4">
+
+
+
 
 
